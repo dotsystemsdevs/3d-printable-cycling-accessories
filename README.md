@@ -82,17 +82,6 @@ A two-part AirTag holder designed to be mounted discreetly on a bicycle frame us
 
 ---
 
-### Topographic Route Maps (Concept)
-
-These were the heart of VeloShift — beautifully designed topographic map posters of iconic Zwift routes like *Figure 8* and *Tempus Fugit*, meant to be printed and framed. This is what Zwift ultimately didn't allow to be sold commercially.
-
-<p align="center">
-  <img src="images/routes/figure8_framed.jpg" width="48%" alt="Figure 8 route map — framed" />
-  <img src="images/routes/route_blue.jpg" width="48%" alt="Route map — blue variant" />
-</p>
-
----
-
 ## General Printing Tips
 
 - All models were designed in [FreeCAD](https://www.freecad.org/) and exported as STL.
