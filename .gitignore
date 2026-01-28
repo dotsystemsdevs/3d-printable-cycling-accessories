@@ -1,0 +1,6 @@
+*.DNG
+*.FCStd
+*.FCBak
+*.3mf
+Thumbs.db
+.DS_Store
