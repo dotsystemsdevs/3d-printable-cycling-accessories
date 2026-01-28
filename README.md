@@ -82,11 +82,20 @@ A two-part AirTag holder designed to be mounted discreetly on a bicycle frame us
 
 ---
 
+## Design & CAD
+
+Every part in this repo was designed from scratch in [FreeCAD](https://www.freecad.org/) — fully parametric, no proprietary software needed. The workflow went from idea to sketch to solid model to slicing and printing, all iterated on a home FDM printer until each design felt right.
+
+If you want to modify the models, the original `.FCStd` source files live in the [Veloshift 2.0 archive](https://github.com/dotsystemsdevs).
+
 ## General Printing Tips
 
-- All models were designed in [FreeCAD](https://www.freecad.org/) and exported as STL.
 - A 0.4 mm nozzle is recommended for all prints.
 - PETG is preferred for parts that need durability (AirTag holder, wheel block). PLA+ works fine for the tablet stand.
+
+## About Me
+
+I'm Dot — a developer and maker based in Sweden. I build apps, tinker with 3D printing, and ride bikes (mostly indoors on Zwift). VeloShift was my first attempt at turning a hobby into a product. It didn't work out commercially, but I learned a ton about CAD, product design, and shipping physical things. You can find my other projects at [github.com/dotsystemsdevs](https://github.com/dotsystemsdevs).
 
 ## License
 
