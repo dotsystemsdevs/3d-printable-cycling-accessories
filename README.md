@@ -97,6 +97,4 @@ If you want to modify the models, the original `.FCStd` source files live in the
 
 All files are provided for **personal use only**. Commercial use, redistribution, or resale of the digital files or printed products is not allowed without permission.
 
-## Contact
 
-📧 veloshift@veloshift.eu
