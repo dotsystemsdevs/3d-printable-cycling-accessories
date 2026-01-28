@@ -93,10 +93,6 @@ If you want to modify the models, the original `.FCStd` source files live in the
 - A 0.4 mm nozzle is recommended for all prints.
 - PETG is preferred for parts that need durability (AirTag holder, wheel block). PLA+ works fine for the tablet stand.
 
-## About Me
-
-I'm Dot — a developer and maker based in Sweden. I build apps, tinker with 3D printing, and ride bikes (mostly indoors on Zwift). VeloShift was my first attempt at turning a hobby into a product. It didn't work out commercially, but I learned a ton about CAD, product design, and shipping physical things. You can find my other projects at [github.com/dotsystemsdevs](https://github.com/dotsystemsdevs).
-
 ## License
 
 All files are provided for **personal use only**. Commercial use, redistribution, or resale of the digital files or printed products is not allowed without permission.
