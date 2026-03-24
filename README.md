@@ -1,100 +1,87 @@
 # VeloShift — 3D Printable Cycling Accessories
 
+Free STL files for indoor cycling. Download, print, ride.
+
 ![VeloShift Banner](images/banner.png)
+
+---
+
+## Downloads
+
+| Item | Files | Supports? | Material |
+|------|-------|-----------|----------|
+| [Wheel Block (30mm)](#wheel-block-30mm) | [`wheelblock30mm_veloshift/`](wheelblock30mm_veloshift/) | No | PLA+ / PETG |
+| [Tablet Stand](#tablet-stand) | [`tabletstand_veloshift/`](tabletstand_veloshift/) | Yes | PLA+ / PETG |
+| [AirTag Holder](#airtag-holder) | [`airtag_veloshift/`](airtag_veloshift/) | No | PETG |
+
+All prints: **0.2mm layer height · 0.4mm nozzle · 15–25% infill**
+
+---
 
 ## The Story
 
-VeloShift was a small passion project born out of a love for indoor cycling and 3D printing. The original idea was to build a brand around beautifully designed, 3D-printed topographic route maps of iconic [Zwift](https://www.zwift.com/) courses — the kind of thing you'd frame and hang in your pain cave.
+VeloShift started as a passion project — beautifully designed, 3D-printed topographic route maps of iconic [Zwift](https://www.zwift.com/) courses. The kind of thing you'd frame and hang in your pain cave.
 
-Alongside the maps, a small lineup of practical 3D-printed accessories for indoor cycling setups was designed: wheel blocks, tablet stands, AirTag holders, and more.
+Everything was designed, prototyped, and ready to go. Then Zwift said no — their brand and route data couldn't be used commercially. Without that, the core product couldn't move forward.
 
-Everything was designed, prototyped, photographed, and ready to go. But then Zwift said no — their brand and route data couldn't be used commercially. Without that permission, the core product line couldn't move forward, and the project was shelved.
-
-Rather than let all the work disappear, everything is published here for free. Download the STL files, print them yourself, and enjoy.
+Rather than let all the work disappear, everything is published here for free.
 
 ---
 
-## Products
+## Wheel Block (30mm)
 
-### Wheel Block (30mm)
-
-A front wheel block to stabilize your bike on an indoor trainer. Features the VeloShift logo embossed on the front. Simple single-piece print, no supports needed.
+A front wheel block to stabilize your bike on an indoor trainer. VeloShift logo embossed on the front. Single-piece print, no supports needed.
 
 <p align="center">
   <img src="images/wheelblock/wheelblock_front.jpg" width="48%" alt="Wheel Block — front view" />
-  <img src="images/wheelblock/wheelblock_pair.jpg" width="48%" alt="Wheel Block — black and white pair" />
+  <img src="images/wheelblock/wheelblock_pair.jpg" width="48%" alt="Wheel Block — pair" />
 </p>
 
-**Print settings:**
-- Layer height: 0.2 mm
-- Infill: 15–25%
-- Material: PLA+ or PETG
-- Supports: Not needed
-
-📁 **Files:** [`wheelblock30mm_veloshift/`](wheelblock30mm_veloshift/)
+📁 [`wheelblock30mm_veloshift/`](wheelblock30mm_veloshift/)
 
 ---
 
-### Tablet Stand
+## Tablet Stand
 
-A modular three-part tablet/iPad stand designed to hold your device at a comfortable viewing angle while riding. Includes a cable holder for clean cable management.
+Modular three-part tablet/iPad stand for comfortable viewing while riding. Includes a cable holder.
 
 <p align="center">
-  <img src="images/tabletstand/tabletstand_setup.jpg" width="48%" alt="Tablet Stand — full setup with Zwift" />
+  <img src="images/tabletstand/tabletstand_setup.jpg" width="48%" alt="Tablet Stand — full setup" />
   <img src="images/tabletstand/tabletstand_closeup.jpg" width="48%" alt="Tablet Stand — close-up" />
 </p>
 
-**Parts included:**
-1. `ipadstand_stand_veloshift.stl` — Main stand body
-2. `ipadstand_feet_veloshift.stl` — Feet/base
+**Parts:**
+1. `ipadstand_stand_veloshift.stl` — Main body
+2. `ipadstand_feet_veloshift.stl` — Base
 3. `ipadstand_cableholder_veloshift.stl` — Cable holder
 
-**Print settings:**
-- Layer height: 0.2 mm
-- Infill: 15–25%
-- Material: PLA+ or PETG
-- Supports: Yes (required)
+⚠️ Supports required.
 
-📁 **Files:** [`tabletstand_veloshift/`](tabletstand_veloshift/)
+📁 [`tabletstand_veloshift/`](tabletstand_veloshift/)
 
 ---
 
-### AirTag Holder
+## AirTag Holder
 
-A two-part AirTag holder designed to be mounted discreetly on a bicycle frame using bottle cage bolts. Snaps together securely around the AirTag.
+Two-part holder that mounts discreetly on a bike frame using bottle cage bolts. Snaps together around the AirTag.
 
 <p align="center">
-  <img src="images/airtag/airtag_mounted.jpg" width="48%" alt="AirTag Holder — mounted on frame" />
-  <img src="images/airtag/airtag_frame.jpg" width="48%" alt="AirTag Holder — on bike frame" />
+  <img src="images/airtag/airtag_mounted.jpg" width="48%" alt="AirTag Holder — mounted" />
+  <img src="images/airtag/airtag_frame.jpg" width="48%" alt="AirTag Holder — on frame" />
 </p>
 
-**Parts included:**
+**Parts:**
 1. `airtagholder_part1_veloshift.stl` — Top shell
 2. `airtagholder_part2_veloshift.stl` — Bottom shell
 
-**Print settings:**
-- Layer height: 0.2 mm
-- Infill: 15–25%
-- Material: PETG
-- Supports: Not needed
-
-📁 **Files:** [`airtag_veloshift/`](airtag_veloshift/)
+📁 [`airtag_veloshift/`](airtag_veloshift/)
 
 ---
 
-## Design & CAD
+## Design
 
-Every part in this repo was designed from scratch in [FreeCAD](https://www.freecad.org/) — fully parametric, no proprietary software needed. The workflow went from idea to sketch to solid model to slicing and printing, all iterated on a home FDM printer until each design felt right.
-
-If you want to modify the models, the original `.FCStd` source files live in the [Veloshift 2.0 archive](https://github.com/dotsystemsdevs).
-
-## General Printing Tips
-
-- A 0.4 mm nozzle is recommended for all prints.
-- PETG is preferred for parts that need durability (AirTag holder, wheel block). PLA+ works fine for the tablet stand.
+Everything designed from scratch in [FreeCAD](https://www.freecad.org/) — fully parametric, no proprietary software needed. Iterated on a home FDM printer.
 
 ## License
 
-All files are provided for **personal use only**. Commercial use, redistribution, or resale of the digital files or printed products is not allowed without permission.
-
-
+Personal use only. No commercial use, redistribution, or resale without permission.
